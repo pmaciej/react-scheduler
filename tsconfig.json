@@ -16,7 +16,8 @@
     "outDir": "./dist",
     "declaration": true,
     "lib": ["dom", "dom.iterable", "esnext"],
-    "noEmit": false
+    "noEmit": false,
+    "rootDir": "./"
   },
   "include": ["src/lib/**/*"]
 }

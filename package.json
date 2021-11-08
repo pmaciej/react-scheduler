@@ -10,7 +10,8 @@
   "scripts": {
     "start": "react-scripts start",
     "pack": "webpack",
-    "build": "tsc && react-scripts build"
+    "build": "tsc",
+    "prepare": "build"
   },
   "repository": {
     "type": "git",
